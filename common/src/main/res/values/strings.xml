@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">common</string>
+    <!--版本控制-->
+    <string name="isTest">true</string>
+    <string name="header">x-auth-token</string>
+
+    <string name="api_normal">https://api.zhongwentoutiao.com/</string>
+    <string name="api_test">http://120.77.215.34:9001/</string>
+
 </resources>

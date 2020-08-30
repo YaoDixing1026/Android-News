@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.and.common"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -28,5 +27,19 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    api 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.8.0'
+
+    // https://mvnrepository.com/artifact/io.reactivex.rxjava3/rxjava
+    api group: 'io.reactivex.rxjava3', name: 'rxjava', version: '3.0.6'
+    // https://mvnrepository.com/artifact/io.reactivex.rxjava3/rxandroid
+    api group: 'io.reactivex.rxjava3', name: 'rxandroid', version: '3.0.0'
+
+    implementation 'com.orhanobut:logger:2.2.0'
+
+
 
 }

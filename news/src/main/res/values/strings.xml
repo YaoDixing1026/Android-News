@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">news</string>
+
+    <string name="debug_or_release">debug</string>
+    <string name="api_normal">https://api.zhongwentoutiao.com/</string>
+    <string name="api_test">http://120.77.215.34:9001/</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
